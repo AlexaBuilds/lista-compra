@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de la Compra - Simulacro</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="card-container">
+
+        <h1 class="main-title">Lista de la Compra</h1>
+
+        <section class="form-group">
+
+            <input
+                type="text"
+                id="inputProducto"
+                placeholder="Producto (Ej: Leche)">
+
+            <button id="btnAgregarProducto">
+                AÑADIR PRODUCTO
+            </button>
+
+        </section>
+
+        <section class="list-section">
+
+            <h2>Productos</h2>
+
+            <ul id="listaCompra">
+            </ul>
+
+        </section>
+
+        <footer class="counter-box">
+
+            <h3>
+                Productos Totales:
+                <span id="contadorProductos">0</span>
+            </h3>
+
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
